@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+  <remote  name="pub"
+           fetch="https://github.com/" />
+
+<!-- removals -->
+  <remove-project name="AOKP/build" />
+  <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="AOKP/dalvik" />
+  <remove-project name="platform/development" />
+  <remove-project name="AOKP/device_lge_mako" />
+  <remove-project name="AOKP/external_bluetooth_bluedroid" />
+  <remove-project name="CyanogenMod/android_external_busybox" />
+  <remove-project name="platform/external/chromium" />
+  <remove-project name="AOKP/external_dnsmasq" />
+  <remove-project name="AOKP/external_e2fsprogs" />
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/openssl" />
+  <remove-project name="platform/external/oprofile" />
+  <remove-project name="platform/external/ping" />
+  <remove-project name="AOKP/external_skia" />
+  <remove-project name="platform/external/stlport" />
+  <remove-project name="platform/external/v8" />
+  <remove-project name="AOKP/external_webkit" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
+  <remove-project name="platform/frameworks/ex" />
+  <remove-project name="AOKP/frameworks_rs" />
+  <remove-project name="platform/frameworks/wilhelm" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <remove-project name="platform/system/security" />
+
+
+<!-- add the Butter  -->
+  <project path="build" name="UnicornButter/android_build" remote="pub" revision="jb-mr1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="bionic" name="UnicornButter/android_bionic" remote="pub" revision="jb-mr1" />
+  <project path="dalvik" name="UnicornButter/dalvik" remote="pub" revision="jb-mr1" />
+  <project path="development" name="UnicornButter/development" remote="pub" revision="jb-mr1" />
+  <project path="external/bluetooth/bluedroid" name="UnicornButter/external_bluetooth_bluedroid" remote="pub" revision="jb-mr1" />
+  <project path="external/busybox" name="UnicornButter/external_busybox" remote="pub" revision="jb-mr1" />
+  <project path="external/chromium" name="UnicornButter/external_chromium" remote="pub" revision="jb-mr1" />
+  <project path="external/dnsmasq" name="UnicornButter/external_dnsmasq" remote="pub" revision="jb-mr1" />
+  <project path="external/e2fsprogs" name="UnicornButter/external_e2fsprogs" remote="pub" revision="jb-mr1" />
+  <project path="external/openssh" name="UnicornButter/external_openssh" remote="pub" revision="jb-mr1" />
+  <project path="external/openssl" name="UnicornButter/external_openssl" remote="pub" revision="jb-mr1" />
+  <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="pub" revision="jb-mr1" />
+  <project path="external/ping" name="UnicornButter/external_ping" remote="pub" revision="jb-mr1" />
+  <project path="external/skia" name="UnicornButter/external_skia" remote="pub" revision="jb-mr1" />
+  <project path="external/stlport" name="UnicornButter/external_stlport" remote="pub" revision="jb-mr1" />
+  <project path="external/v8" name="UnicornButter/external_v8" remote="pub" revision="jb-mr1" />
+  <project path="external/webkit" name="UnicornButter/external_webkit" remote="pub" revision="jb-mr1" />
+  <project path="external/wpa_supplicant_8" name="UnicornButter/external_wpa_supplicant_8" remote="pub" revision="jb-mr1" />
+  <project path="frameworks/compile/mclinker" name="UnicornButter/frameworks_compile_mclinker" remote="pub" revision="jb-mr1" />
+  <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="pub" revision="jb-mr1" />
+  <project path="frameworks/rs" name="UnicornButter/frameworks_rs" remote="pub" revision="jb-mr1" />
+  <project path="frameworks/wilhelm" name="UnicornButter/frameworks_wilhelm" remote="pub" revision="jb-mr1" />
+  <project path="hardware/qcom/display" name="UnicornButter/hardware_qcom_display" remote="pub" revision="jb-mr1" />
+  <project path="hardware/qcom/display-caf" name="UnicornButter/hardware_qcom_display-caf" remote="pub" revision="jb-mr1" />
+  <project path="hardware/qcom/media" name="UnicornButter/hardware_qcom_media" remote="pub" revision="jb-mr1" />
+  <project path="hardware/ti/omap4xxx" name="UnicornButter/hardware_ti_omap4xxx" remote="pub" revision="jb-mr1" />
+  <project path="libcore" name="UnicornButter/libcore" remote="pub" revision="jb-mr1" />
+  <project path="packages/wallpapers/LivePicker" name="UnicornButter/packages_wallpapers_LivePicker" remote="pub" revision="jb-mr1" />
+  <project path="system/security" name="UnicornButter/system_security" remote="pub" revision="jb-mr1" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin,arm" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin,arm" revision="master" />
+
+</manifest>
