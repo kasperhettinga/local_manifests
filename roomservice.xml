@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
 
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="cm" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="github" revision="cm-10.1" />
