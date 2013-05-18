@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="CyanogenMod/android_device_samsung_p4-common" path="device/samsung/p4-common" remote="cm" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_p4wifi" path="device/samsung/p4wifi" remote="cm" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_p4vzw" path="device/samsung/p4vzw" remote="cm" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_p4tmo" path="device/samsung/p4tmo" remote="cm" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_p4" path="device/samsung/p4" remote="cm" revision="cm-10.1" />
-  <project name="CyanogenMod/android_kernel_samsung_p4" path="kernel/samsung/p4" remote="cm" revision="cm-10.1" />
+  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="cm" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="cm" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="cm" revision="cm-10.1" />
 </manifest>
