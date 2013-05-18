@@ -3,7 +3,7 @@
   <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
 
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="cm" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="cm" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="cm" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="cm" revision="cm-10.1" />
 </manifest>
