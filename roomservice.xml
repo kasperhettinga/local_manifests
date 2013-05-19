@@ -6,9 +6,14 @@
   <remove-project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/libhardware" path="hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/ril" path="hardware/ril" />
   <remove-project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" />
   <remove-project name="platform/system/vold" path="system/vold" />
   <remove-project name="device/common" path="device/common" />
+  <remove-project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
+  <remove-project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Mms" path="packages/apps/Mms" />
 
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-10.1" />
@@ -17,6 +22,7 @@
   <project name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_hardware_ti_omap3" path="hardware/ti/omap3" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_device_common" path="device/common" remote="github" revision="cm-10.1" />
@@ -32,8 +38,13 @@
   <project name="CyanogenMod/android_external_openvpn" path="external/openvpn"  remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_external_powertop" path="external/powertop"  remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_external_vim" path="external/vim"  remote="github" revision="cm-10.1" />
+
+  <project name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager"  remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_Gallery" path="packages/apps/Gallery" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_Mms" path="packages/apps/Mms"  remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch"  remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock"  remote="github" revision="cm-10.1" />
 </manifest>
