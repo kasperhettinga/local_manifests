@@ -13,7 +13,7 @@
   <remove-project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
   <remove-project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" />
-  <remove-project name="platform/packages/apps/Mms" path="packages/apps/Mms" />
+  <remove-project name="ParanoidAndroid/android_packages_apps_Mms" path="packages/apps/Mms" />
 
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-10.1" />
