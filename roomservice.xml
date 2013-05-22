@@ -49,7 +49,7 @@
   <project name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager"  remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email2" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_Exchange" path="packages/apps/Exchange" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_Gallery" path="packages/apps/Gallery" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="cm-10.1" />
