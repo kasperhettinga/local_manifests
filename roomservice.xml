@@ -14,12 +14,12 @@
   <remove-project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" />
   <remove-project name="platform/system/vold" path="system/vold" />
 
-  <remove-project name="platform/packages/apps/CalendarProvider" path="packages/apps/CalendarProvider" />
   <remove-project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
   <remove-project name="platform/packages/apps/Email" path="packages/apps/Email2" />
   <remove-project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" />
   <remove-project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" />
+  <remove-project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" />
 
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-10.1" />
