@@ -4,7 +4,6 @@
 
   <remove-project name="ParanoidAndroid/android_frameworks_native" path="frameworks/native" />
   <remove-project name="ParanoidAndroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
-  <remove-project name="ParanoidAndroid/android_packages_apps_Camera" path="packages/apps/Camera" />
   <remove-project name="ParanoidAndroid/android_packages_apps_Mms" path="packages/apps/Mms" />
 
   <remove-project name="platform/frameworks/av" path="frameworks/av" />
